@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+</head>
+
+<body>
+    <div class="navleft">
+        <img id="main_pic" src="./img/headshotpic.JPG" alt="Photo of Jesse">
+    </div>
+    <div class="header">
+        <div class="navtop">
+            <ul>
+                <li class="main_menu"><a href="./index.html">Home</a></li>
+                <li class="main_menu"><a href="./about.html">About Me</a></li>
+                <li class="main_menu"><a href="./books.html">Books</a></li>
+                <li class="main_menu"><a href="./trainings.html">Trainings</a></li>
+                <li class="main_menu"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <h1>Jesse Lito</h1>
+            <h2>Junior Web Developer</h2>
+            <h2>High-caliber Customer Care and IT professional</h2>
+        </div>
+    </div>
+
+    <div id="contactform">
+        <h1 class="pagetitle">Contact Me</h1>
+        <form action="/query">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" name="email">
+            </p>
+            <p>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" cols="20" rows="10"></textarea>
+            </p>
+
+            <p>
+                <input type="radio" name="relation" id="classmate" value="classmate">
+                <label for="classmate">Classmate</label>
+                <input type="radio" name="relation" id="family" value="family">
+                <label for="Family">Family</label>
+                <input type="radio" name="relation" id="workmate" value="workmate">
+                <label for="Workmate">Workmate</label>
+            </p>
+
+            <p>
+                <label for="channel">How did you find me?</label>
+                <select name="channel" id="channel">
+                    <option value="fb">Facebook</option>
+                    <option value="twitter" selected>Twitter</option>
+                    <option value="linkedin">LinkedIn</option>
+
+                </select>
+            </p>
+            <button type="submit">Submit</button>
+    </div>
+</body>
+
+</html>

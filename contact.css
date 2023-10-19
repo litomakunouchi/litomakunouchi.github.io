@@ -1,0 +1,21 @@
+#contactform{
+    margin: 0 30%;
+}
+
+input[type=text], input[type=email] {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+button[type=submit]{
+    width: 100px;
+    height: 30px;
+}
